@@ -1,6 +1,14 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("blaha");
+        int input = 2;
+        int output = subtract1(input);
+        System.out.println(output);
+
+
+    }
+
+    public static int subtract1(int n) {
+        return n+1;
     }
 }
